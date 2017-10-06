@@ -1,4 +1,4 @@
-/* Stepper Shield Test Program
+/* Stepper Test Program
  *  
  *  B  P  Y  Or Red
  *  7  0  2 14 +V
