@@ -1,22 +1,22 @@
-/* Stepper Motor Test Program
- *  B  P  Y  Or Red
- *  8  9  10 11 +V
- *  
- *  1  1  1  0  
- *  1  1  0  0
- *  1  0  0  1
- *  1  0  1  1
- *  0  1  1  1
- *  0  1  1  0
+/* Stepper Shield Test Program
+ *  B   P   Y   O   Red
+ *  14  12  13  15  +V
+ *  D5  D6  D7  D8
+ *  1   1   1   0  
+ *  1   1   0   0
+ *  1   0   0   1
+ *  1   0   1   1
+ *  0   1   1   1
+ *  0   1   1   0
  */
 
-int rate = 4; // Delay between the lines (speed of the stepper) - Max Speed 4
+// Digital Connections v Physical Conections:
+int Blue_Wire = 14; // D5
+int Pink_Wire = 12; // D6
+int Yellow_Wire = 13; // D7
+int Orange_Wire = 15; // D8
 
-// Stepper Connections v Arduino Connections
-int Blue_Wire = 8;
-int Pink_Wire = 9;
-int Yellow_Wire = 10;
-int Orange_Wire = 11;
+int rate = 5; // Delay between the lines (speed of the stepper) - Max Speed 4
 
 void setup() {
   // Set Pin States
