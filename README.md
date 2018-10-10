@@ -3,9 +3,9 @@ The 35BY412 stepper motor is relatively unsupported and is quite hard to find an
 ![alt text](https://github.com/Snakey02/35BY412-Stepper/blob/master/Assets/Steppers%20Set%202.jpg "Steppers Set 2")
 ## Diagrams
 * Truth Table -
-![alt text](https://github.com/Snakey02/35BY412-Stepper/blob/master/Diagrams/Truth%20Table.jpg "Truth Table")
+![alt text](https://github.com/Snakey02/35BY412-Stepper/blob/master/Diagrams/Truth-Table.jpg "Truth-Table")
 * Schematic of the 35BY412-Stepper Motor connected to the [X113647 Stepper Shield](https://github.com/tardate/X113647Stepper) and Arduino Uno -
-![alt text](https://github.com/Snakey02/35BY412-Stepper/blob/master/Diagrams/Ardunio%2C%20Shield%2C%20Stepper.jpg "Arduino, Shield, Stepper")
+![alt text](https://github.com/Snakey02/35BY412-Stepper/blob/master/Diagrams/Arduino-Shield-Stepper.jpg "Arduino-Shield-Stepper")
 ## Example Programs
 Here are a few custom programs written for the 35BY412 Stepper Motor and [X113647 Stepper Shield](https://github.com/tardate/X113647Stepper):
 * [StepperTruthTableArduino](https://github.com/Snakey02/35BY412-Stepper/tree/master/Examples/StepperTruthTableArduino) - Basic example of the stepper truth table running in a loop, rotating the stepper clockwise. This program is written for the Arduino Duemilanove.
